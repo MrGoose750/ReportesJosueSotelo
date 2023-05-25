@@ -456,7 +456,7 @@ SELECT region_id, region_name FROM regions WHERE (region_id = @region_id)</Comma
             </Mappings>
             <Sources />
           </TableAdapter>
-          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobEmployeeTableAdapter" GeneratorDataComponentClassName="JobEmployeeTableAdapter" Name="JobEmployee" UserDataComponentName="JobEmployeeTableAdapter">
             <MainSource>
               <DbSource ConnectionRef="cStrDBRH (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
@@ -665,7 +665,7 @@ FROM     employees INNER JOIN
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+        <xs:element name="JobEmployee" msprop:Generator_RowEvHandlerName="JobEmployeeRowChangeEventHandler" msprop:Generator_RowDeletedName="JobEmployeeRowDeleted" msprop:Generator_RowDeletingName="JobEmployeeRowDeleting" msprop:Generator_RowEvArgName="JobEmployeeRowChangeEvent" msprop:Generator_TablePropName="JobEmployee" msprop:Generator_RowChangedName="JobEmployeeRowChanged" msprop:Generator_RowChangingName="JobEmployeeRowChanging" msprop:Generator_TableClassName="JobEmployeeDataTable" msprop:Generator_RowClassName="JobEmployeeRow" msprop:Generator_TableVarName="tableJobEmployee" msprop:Generator_UserTableName="JobEmployee">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="job_title" msprop:Generator_ColumnPropNameInRow="job_title" msprop:Generator_ColumnPropNameInTable="job_titleColumn" msprop:Generator_ColumnVarNameInTable="columnjob_title" msprop:Generator_UserColumnName="job_title">
